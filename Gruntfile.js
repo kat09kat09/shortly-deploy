@@ -116,7 +116,7 @@ module.exports = function(grunt) {
     'mochaTest'
   ]);
   
-  grunt.registerTask('heroku', [
+  grunt.registerTask('heroku:production', [
     'concat',
     'uglify',
     'jshint',
